@@ -1,0 +1,158 @@
+2026-10-28 15:33:42,050 | INFO     | Alert Processor            | Alert Processor started
+2026-10-28 15:33:42,050 | INFO     | Earthquakes (USGS)         | Earthquakes (USGS) started
+2026-10-28 15:33:42,051 | INFO     | Weather (Open-Meteo)       | Weather (Open-Meteo) started
+2026-10-28 15:33:42,051 | INFO     | Air Quality (Open-Meteo)   | Air Quality (Open-Meteo) started
+2026-10-28 15:33:42,052 | INFO     | MainThread                 | Dashboard running at http://127.0.0.1:5000  (press CTRL+C to stop)
+2026-10-28 15:33:43,767 | WARNING  | Alert Processor            | ALERT [MEDIUM] Earthquake - M4.6 earthquake - 11 km W of Ashkāsham, Afghanistan (depth 175 km). About 422 km from Srinagar, Jammu & Kashmir. Light-to-moderate shaking possible near the epicentre.
+2026-10-28 15:33:43,777 | WARNING  | Alert Processor            | ALERT [CRITICAL] Earthquake - M7.0 earthquake - 191 km ENE of Nagqu, China (depth 18 km). About 589 km from Itanagar, Arunachal Pradesh. Drop, Cover, Hold On. Expect aftershocks; stay away from damaged buildings.
+2026-10-28 15:33:43,784 | WARNING  | Alert Processor            | ALERT [HIGH] Earthquake - M5.2 earthquake - 201 km ENE of Nagqu, China (depth 10 km). About 596 km from Itanagar, Arunachal Pradesh. Drop, Cover, Hold On. Expect aftershocks; stay away from damaged buildings.
+2026-10-28 15:33:43,800 | WARNING  | Alert Processor            | ALERT [MEDIUM] Earthquake - M4.6 earthquake - 193 km NE of Nagqu, China (depth 10 km). About 599 km from Itanagar, Arunachal Pradesh. Light-to-moderate shaking possible near the epicentre.
+2026-10-28 15:33:43,809 | WARNING  | Alert Processor            | ALERT [MEDIUM] Earthquake - M4.5 earthquake - 203 km ENE of Nagqu, China (depth 10 km). About 597 km from Itanagar, Arunachal Pradesh. Light-to-moderate shaking possible near the epicentre.
+2026-10-28 15:33:43,816 | WARNING  | Alert Processor            | ALERT [MEDIUM] Earthquake - M4.7 earthquake - 190 km ENE of Nagqu, China (depth 10 km). About 583 km from Itanagar, Arunachal Pradesh. Light-to-moderate shaking possible near the epicentre.
+2026-10-28 15:33:43,823 | WARNING  | Alert Processor            | ALERT [HIGH] Earthquake - M5.0 earthquake - 207 km ENE of Nagqu, China (depth 10 km). About 589 km from Itanagar, Arunachal Pradesh. Drop, Cover, Hold On. Expect aftershocks; stay away from damaged buildings.
+2026-10-28 15:33:43,834 | WARNING  | Alert Processor            | ALERT [MEDIUM] Earthquake - M4.1 earthquake - 207 km ENE of Nagqu, China (depth 10 km). About 594 km from Itanagar, Arunachal Pradesh. Light-to-moderate shaking possible near the epicentre.
+2026-10-28 15:33:43,842 | WARNING  | Alert Processor            | ALERT [MEDIUM] Earthquake - M4.2 earthquake - 184 km ENE of Nagqu, China (depth 10 km). About 582 km from Itanagar, Arunachal Pradesh. Light-to-moderate shaking possible near the epicentre.
+2026-10-28 15:33:43,864 | WARNING  | Alert Processor            | ALERT [MEDIUM] Earthquake - M4.6 earthquake - 91 km ESE of Tuensang, India (depth 117 km). About 157 km from Kohima, Nagaland. Light-to-moderate shaking possible near the epicentre.
+2026-10-28 15:33:43,872 | WARNING  | Alert Processor            | ALERT [MEDIUM] Earthquake - M4.8 earthquake - 209 km ENE of Nagqu, China (depth 10 km). About 600 km from Itanagar, Arunachal Pradesh. Light-to-moderate shaking possible near the epicentre.
+2026-10-28 15:33:43,879 | WARNING  | Alert Processor            | ALERT [MEDIUM] Earthquake - M4.1 earthquake - 55 km ESE of Farkhār, Afghanistan (depth 211 km). About 474 km from Srinagar, Jammu & Kashmir. Light-to-moderate shaking possible near the epicentre.
+2026-10-28 15:33:43,898 | WARNING  | Alert Processor            | ALERT [MEDIUM] Earthquake - M4.4 earthquake - 76 km S of Mawlaik, Burma (Myanmar) (depth 103 km). About 198 km from Aizawl, Mizoram. Light-to-moderate shaking possible near the epicentre.
+2026-10-28 15:33:43,911 | WARNING  | Alert Processor            | ALERT [MEDIUM] Earthquake - M4.3 earthquake - 71 km SW of Rikaze, China (depth 10 km). About 159 km from Gangtok, Sikkim. Light-to-moderate shaking possible near the epicentre.
+2026-10-28 15:33:43,919 | WARNING  | Alert Processor            | ALERT [HIGH] Earthquake - M5.1 earthquake - 199 km ENE of Nagqu, China (depth 10 km). About 588 km from Itanagar, Arunachal Pradesh. Drop, Cover, Hold On. Expect aftershocks; stay away from damaged buildings.
+2026-10-28 15:33:43,926 | WARNING  | Alert Processor            | ALERT [HIGH] Earthquake - M5.9 earthquake - 218 km ENE of Nagqu, China (depth 7 km). About 600 km from Itanagar, Arunachal Pradesh. Drop, Cover, Hold On. Expect aftershocks; stay away from damaged buildings.
+2026-10-28 15:33:43,938 | WARNING  | Alert Processor            | ALERT [HIGH] Earthquake - M5.2 earthquake - 59 km SW of Ashkāsham, Afghanistan (depth 110 km). About 415 km from Srinagar, Jammu & Kashmir. Drop, Cover, Hold On. Expect aftershocks; stay away from damaged buildings.
+2026-10-28 15:33:43,945 | WARNING  | Alert Processor            | ALERT [MEDIUM] Earthquake - M4.7 earthquake - 170 km ENE of Nagqu, China (depth 10 km). About 572 km from Itanagar, Arunachal Pradesh. Light-to-moderate shaking possible near the epicentre.
+2026-10-28 15:33:43,952 | WARNING  | Alert Processor            | ALERT [MEDIUM] Earthquake - M4.3 earthquake - 26 km SSW of Sann, Pakistan (depth 10 km). About 560 km from Ahmedabad, Gujarat. Light-to-moderate shaking possible near the epicentre.
+2026-10-28 15:33:43,958 | WARNING  | Alert Processor            | ALERT [MEDIUM] Earthquake - M4.6 earthquake - 41 km S of Farkhār, Afghanistan (depth 115 km). About 503 km from Srinagar, Jammu & Kashmir. Light-to-moderate shaking possible near the epicentre.
+2026-10-28 15:33:43,964 | WARNING  | Alert Processor            | ALERT [MEDIUM] Earthquake - M4.4 earthquake - 32 km SW of Ashkāsham, Afghanistan (depth 124 km). About 411 km from Srinagar, Jammu & Kashmir. Light-to-moderate shaking possible near the epicentre.
+2026-10-28 15:33:44,430 | WARNING  | Alert Processor            | ALERT [MEDIUM] Heavy Rain Forecast - Visakhapatnam, Andhra Pradesh: 112 mm rain forecast today. Expect waterlogging in low areas.
+2026-10-28 15:33:44,503 | WARNING  | Alert Processor            | ALERT [MEDIUM] Unhealthy Air - Delhi, Delhi: US AQI 171. Limit prolonged outdoor exertion.
+2026-10-28 15:33:44,530 | WARNING  | Alert Processor            | ALERT [MEDIUM] Unhealthy Air - Chennai, Tamil Nadu: US AQI 157. Limit prolonged outdoor exertion.
+2026-10-28 15:33:44,576 | WARNING  | Alert Processor            | ALERT [MEDIUM] Unhealthy Air - Lucknow, Uttar Pradesh: US AQI 153. Limit prolonged outdoor exertion.
+2026-10-28 15:33:44,587 | WARNING  | Alert Processor            | ALERT [MEDIUM] Unhealthy Air - Patna, Bihar: US AQI 158. Limit prolonged outdoor exertion.
+2026-10-28 15:33:44,858 | WARNING  | Alert Processor            | ALERT [MEDIUM] Unhealthy Air - Puducherry, Puducherry: US AQI 151. Limit prolonged outdoor exertion.
+2026-10-28 15:41:04,555 | INFO     | MainThread                 | Shutdown complete
+2026-10-28 15:41:04,555 | INFO     | Air Quality (Open-Meteo)   | Air Quality (Open-Meteo) stopped
+2026-10-28 15:41:06,380 | INFO     | Alert Processor            | Alert Processor started
+2026-10-28 15:41:06,380 | INFO     | Earthquakes (USGS)         | Earthquakes (USGS) started
+2026-10-28 15:41:06,380 | INFO     | Weather (Open-Meteo)       | Weather (Open-Meteo) started
+2026-10-28 15:41:06,381 | INFO     | Air Quality (Open-Meteo)   | Air Quality (Open-Meteo) started
+2026-10-28 15:41:06,381 | INFO     | MainThread                 | Dashboard running at http://127.0.0.1:5000  (press CTRL+C to stop)
+2026-10-28 15:41:08,005 | WARNING  | Alert Processor            | ALERT [MEDIUM] Unhealthy Air - Delhi, Delhi: US AQI 171. Limit prolonged outdoor exertion.
+2026-10-28 15:41:08,017 | WARNING  | Alert Processor            | ALERT [MEDIUM] Unhealthy Air - Chennai, Tamil Nadu: US AQI 157. Limit prolonged outdoor exertion.
+2026-10-28 15:41:08,042 | WARNING  | Alert Processor            | ALERT [MEDIUM] Unhealthy Air - Lucknow, Uttar Pradesh: US AQI 153. Limit prolonged outdoor exertion.
+2026-10-28 15:41:08,051 | WARNING  | Alert Processor            | ALERT [MEDIUM] Unhealthy Air - Patna, Bihar: US AQI 158. Limit prolonged outdoor exertion.
+2026-10-28 15:41:08,127 | WARNING  | Alert Processor            | ALERT [MEDIUM] Heavy Rain Forecast - Visakhapatnam, Andhra Pradesh: 112 mm rain forecast today. Expect waterlogging in low areas.
+2026-10-28 15:41:08,144 | WARNING  | Alert Processor            | ALERT [MEDIUM] Unhealthy Air - Puducherry, Puducherry: US AQI 151. Limit prolonged outdoor exertion.
+2026-10-28 15:47:45,635 | INFO     | MainThread                 | Shutdown complete
+2026-10-28 15:47:45,635 | INFO     | Earthquakes (USGS)         | Earthquakes (USGS) stopped
+2026-10-28 15:47:45,635 | INFO     | Weather (Open-Meteo)       | Weather (Open-Meteo) stopped
+2026-10-28 15:47:47,217 | INFO     | Alert Processor            | Alert Processor started
+2026-10-28 15:47:47,218 | INFO     | Earthquakes (USGS)         | Earthquakes (USGS) started
+2026-10-28 15:47:47,218 | INFO     | Weather (Open-Meteo)       | Weather (Open-Meteo) started
+2026-10-28 15:47:47,219 | INFO     | Air Quality (Open-Meteo)   | Air Quality (Open-Meteo) started
+2026-10-28 15:47:47,219 | INFO     | MainThread                 | Dashboard running at http://127.0.0.1:5000  (press CTRL+C to stop)
+2026-10-28 15:47:48,897 | WARNING  | Alert Processor            | ALERT [MEDIUM] Unhealthy Air - Delhi, Delhi: US AQI 171. Limit prolonged outdoor exertion.
+2026-10-28 15:47:48,914 | WARNING  | Alert Processor            | ALERT [MEDIUM] Unhealthy Air - Chennai, Tamil Nadu: US AQI 157. Limit prolonged outdoor exertion.
+2026-10-28 15:47:48,946 | WARNING  | Alert Processor            | ALERT [MEDIUM] Unhealthy Air - Lucknow, Uttar Pradesh: US AQI 153. Limit prolonged outdoor exertion.
+2026-10-28 15:47:48,956 | WARNING  | Alert Processor            | ALERT [MEDIUM] Unhealthy Air - Patna, Bihar: US AQI 158. Limit prolonged outdoor exertion.
+2026-10-28 15:47:49,025 | WARNING  | Alert Processor            | ALERT [MEDIUM] Heavy Rain Forecast - Visakhapatnam, Andhra Pradesh: 112 mm rain forecast today. Expect waterlogging in low areas.
+2026-10-28 15:47:49,044 | WARNING  | Alert Processor            | ALERT [MEDIUM] Unhealthy Air - Puducherry, Puducherry: US AQI 151. Limit prolonged outdoor exertion.
+2026-10-28 15:48:15,235 | INFO     | MainThread                 | Shutdown complete
+2026-10-28 15:48:15,235 | INFO     | Earthquakes (USGS)         | Earthquakes (USGS) stopped
+2026-10-28 15:48:15,235 | INFO     | Weather (Open-Meteo)       | Weather (Open-Meteo) stopped
+2026-10-28 15:48:15,235 | INFO     | Air Quality (Open-Meteo)   | Air Quality (Open-Meteo) stopped
+2026-10-28 15:53:06,654 | INFO     | Alert Processor            | Alert Processor started
+2026-10-28 15:53:06,655 | INFO     | Earthquakes (USGS)         | Earthquakes (USGS) started
+2026-10-28 15:53:06,657 | INFO     | Weather (Open-Meteo)       | Weather (Open-Meteo) started
+2026-10-28 15:53:06,720 | INFO     | Air Quality (Open-Meteo)   | Air Quality (Open-Meteo) started
+2026-10-28 15:53:06,720 | INFO     | MainThread                 | Dashboard running at http://127.0.0.1:5000  (press CTRL+C to stop)
+2026-10-28 15:53:08,828 | WARNING  | Alert Processor            | ALERT [MEDIUM] Unhealthy Air - Delhi, Delhi: US AQI 171. Limit prolonged outdoor exertion.
+2026-10-28 15:53:08,847 | WARNING  | Alert Processor            | ALERT [MEDIUM] Unhealthy Air - Chennai, Tamil Nadu: US AQI 157. Limit prolonged outdoor exertion.
+2026-10-28 15:53:08,890 | WARNING  | Alert Processor            | ALERT [MEDIUM] Unhealthy Air - Lucknow, Uttar Pradesh: US AQI 153. Limit prolonged outdoor exertion.
+2026-10-28 15:53:08,917 | WARNING  | Alert Processor            | ALERT [MEDIUM] Unhealthy Air - Patna, Bihar: US AQI 158. Limit prolonged outdoor exertion.
+2026-10-28 15:53:09,032 | WARNING  | Alert Processor            | ALERT [MEDIUM] Heavy Rain Forecast - Visakhapatnam, Andhra Pradesh: 112 mm rain forecast today. Expect waterlogging in low areas.
+2026-10-28 15:53:09,103 | WARNING  | Alert Processor            | ALERT [MEDIUM] Unhealthy Air - Puducherry, Puducherry: US AQI 151. Limit prolonged outdoor exertion.
+2026-10-28 15:55:09,093 | INFO     | MainThread                 | Shutdown complete
+2026-10-28 15:55:09,094 | INFO     | Weather (Open-Meteo)       | Weather (Open-Meteo) stopped
+2026-10-28 15:55:09,094 | INFO     | Air Quality (Open-Meteo)   | Air Quality (Open-Meteo) stopped
+2026-10-28 15:55:10,555 | INFO     | Alert Processor            | Alert Processor started
+2026-10-28 15:55:10,555 | INFO     | Earthquakes (USGS)         | Earthquakes (USGS) started
+2026-10-28 15:55:10,555 | INFO     | Weather (Open-Meteo)       | Weather (Open-Meteo) started
+2026-10-28 15:55:10,556 | INFO     | Air Quality (Open-Meteo)   | Air Quality (Open-Meteo) started
+2026-10-28 15:55:10,556 | INFO     | MainThread                 | Dashboard running at http://127.0.0.1:5000  (press CTRL+C to stop)
+2026-10-28 15:55:11,787 | WARNING  | Alert Processor            | ALERT [MEDIUM] Unhealthy Air - Delhi, Delhi: US AQI 171. Limit prolonged outdoor exertion.
+2026-10-28 15:55:11,801 | WARNING  | Alert Processor            | ALERT [MEDIUM] Unhealthy Air - Chennai, Tamil Nadu: US AQI 157. Limit prolonged outdoor exertion.
+2026-10-28 15:55:11,829 | WARNING  | Alert Processor            | ALERT [MEDIUM] Unhealthy Air - Lucknow, Uttar Pradesh: US AQI 153. Limit prolonged outdoor exertion.
+2026-10-28 15:55:11,838 | WARNING  | Alert Processor            | ALERT [MEDIUM] Unhealthy Air - Patna, Bihar: US AQI 158. Limit prolonged outdoor exertion.
+2026-10-28 15:55:11,892 | WARNING  | Alert Processor            | ALERT [MEDIUM] Heavy Rain Forecast - Visakhapatnam, Andhra Pradesh: 112 mm rain forecast today. Expect waterlogging in low areas.
+2026-10-28 15:55:11,909 | WARNING  | Alert Processor            | ALERT [MEDIUM] Unhealthy Air - Puducherry, Puducherry: US AQI 151. Limit prolonged outdoor exertion.
+2026-10-28 15:57:50,841 | INFO     | MainThread                 | Shutdown complete
+2026-10-28 15:57:50,842 | INFO     | Earthquakes (USGS)         | Earthquakes (USGS) stopped
+2026-10-28 15:57:50,842 | INFO     | Air Quality (Open-Meteo)   | Air Quality (Open-Meteo) stopped
+2026-10-28 15:57:52,064 | INFO     | Alert Processor            | Alert Processor started
+2026-10-28 15:57:52,064 | INFO     | Earthquakes (USGS)         | Earthquakes (USGS) started
+2026-10-28 15:57:52,065 | INFO     | Weather (Open-Meteo)       | Weather (Open-Meteo) started
+2026-10-28 15:57:52,065 | INFO     | Air Quality (Open-Meteo)   | Air Quality (Open-Meteo) started
+2026-10-28 15:57:52,065 | INFO     | MainThread                 | Dashboard running at http://127.0.0.1:5000  (press CTRL+C to stop)
+2026-10-28 15:57:53,390 | WARNING  | Alert Processor            | ALERT [MEDIUM] Unhealthy Air - Delhi, Delhi: US AQI 171. Limit prolonged outdoor exertion.
+2026-10-28 15:57:53,407 | WARNING  | Alert Processor            | ALERT [MEDIUM] Unhealthy Air - Chennai, Tamil Nadu: US AQI 157. Limit prolonged outdoor exertion.
+2026-10-28 15:57:53,434 | WARNING  | Alert Processor            | ALERT [MEDIUM] Unhealthy Air - Lucknow, Uttar Pradesh: US AQI 153. Limit prolonged outdoor exertion.
+2026-10-28 15:57:53,445 | WARNING  | Alert Processor            | ALERT [MEDIUM] Unhealthy Air - Patna, Bihar: US AQI 158. Limit prolonged outdoor exertion.
+2026-10-28 15:57:53,506 | WARNING  | Alert Processor            | ALERT [MEDIUM] Heavy Rain Forecast - Visakhapatnam, Andhra Pradesh: 112 mm rain forecast today. Expect waterlogging in low areas.
+2026-10-28 15:57:53,522 | WARNING  | Alert Processor            | ALERT [MEDIUM] Unhealthy Air - Puducherry, Puducherry: US AQI 151. Limit prolonged outdoor exertion.
+2026-10-28 15:59:16,819 | INFO     | MainThread                 | Shutdown complete
+2026-10-28 15:59:16,819 | INFO     | Air Quality (Open-Meteo)   | Air Quality (Open-Meteo) stopped
+2026-10-28 15:59:17,921 | INFO     | Alert Processor            | Alert Processor started
+2026-10-28 15:59:17,921 | INFO     | Earthquakes (USGS)         | Earthquakes (USGS) started
+2026-10-28 15:59:17,921 | INFO     | Weather (Open-Meteo)       | Weather (Open-Meteo) started
+2026-10-28 15:59:17,922 | INFO     | Air Quality (Open-Meteo)   | Air Quality (Open-Meteo) started
+2026-10-28 15:59:17,923 | INFO     | MainThread                 | Dashboard running at http://127.0.0.1:5000  (press CTRL+C to stop)
+2026-10-28 15:59:19,752 | WARNING  | Alert Processor            | ALERT [MEDIUM] Unhealthy Air - Delhi, Delhi: US AQI 171. Limit prolonged outdoor exertion.
+2026-10-28 15:59:19,770 | WARNING  | Alert Processor            | ALERT [MEDIUM] Unhealthy Air - Chennai, Tamil Nadu: US AQI 157. Limit prolonged outdoor exertion.
+2026-10-28 15:59:19,804 | WARNING  | Alert Processor            | ALERT [MEDIUM] Unhealthy Air - Lucknow, Uttar Pradesh: US AQI 153. Limit prolonged outdoor exertion.
+2026-10-28 15:59:19,816 | WARNING  | Alert Processor            | ALERT [MEDIUM] Unhealthy Air - Patna, Bihar: US AQI 158. Limit prolonged outdoor exertion.
+2026-10-28 15:59:19,898 | WARNING  | Alert Processor            | ALERT [MEDIUM] Heavy Rain Forecast - Visakhapatnam, Andhra Pradesh: 112 mm rain forecast today. Expect waterlogging in low areas.
+2026-10-28 15:59:19,926 | WARNING  | Alert Processor            | ALERT [MEDIUM] Unhealthy Air - Puducherry, Puducherry: US AQI 151. Limit prolonged outdoor exertion.
+2026-10-28 16:06:55,410 | INFO     | MainThread                 | Shutdown complete
+2026-10-28 16:06:55,410 | INFO     | Weather (Open-Meteo)       | Weather (Open-Meteo) stopped
+2026-10-28 16:06:55,410 | INFO     | Air Quality (Open-Meteo)   | Air Quality (Open-Meteo) stopped
+2026-10-28 16:06:55,411 | INFO     | Earthquakes (USGS)         | Earthquakes (USGS) stopped
+2026-10-28 16:06:57,276 | INFO     | Alert Processor            | Alert Processor started
+2026-10-28 16:06:57,276 | INFO     | Earthquakes (USGS)         | Earthquakes (USGS) started
+2026-10-28 16:06:57,277 | INFO     | Weather (Open-Meteo)       | Weather (Open-Meteo) started
+2026-10-28 16:06:57,278 | INFO     | Air Quality (Open-Meteo)   | Air Quality (Open-Meteo) started
+2026-10-28 16:06:57,278 | INFO     | MainThread                 | Dashboard running at http://127.0.0.1:5000  (press CTRL+C to stop)
+2026-10-28 16:06:59,409 | WARNING  | Alert Processor            | ALERT [MEDIUM] Unhealthy Air - Delhi, Delhi: US AQI 171. Limit prolonged outdoor exertion.
+2026-10-28 16:06:59,427 | WARNING  | Alert Processor            | ALERT [MEDIUM] Unhealthy Air - Chennai, Tamil Nadu: US AQI 157. Limit prolonged outdoor exertion.
+2026-10-28 16:06:59,481 | WARNING  | Alert Processor            | ALERT [MEDIUM] Unhealthy Air - Lucknow, Uttar Pradesh: US AQI 153. Limit prolonged outdoor exertion.
+2026-10-28 16:06:59,495 | WARNING  | Alert Processor            | ALERT [MEDIUM] Unhealthy Air - Patna, Bihar: US AQI 158. Limit prolonged outdoor exertion.
+2026-10-28 16:06:59,584 | WARNING  | Alert Processor            | ALERT [MEDIUM] Heavy Rain Forecast - Visakhapatnam, Andhra Pradesh: 112 mm rain forecast today. Expect waterlogging in low areas.
+2026-10-28 16:06:59,652 | WARNING  | Alert Processor            | ALERT [MEDIUM] Unhealthy Air - Puducherry, Puducherry: US AQI 151. Limit prolonged outdoor exertion.
+2026-10-28 16:13:33,079 | INFO     | Alert Processor            | Alert Processor started
+2026-10-28 16:13:33,081 | INFO     | Earthquakes (USGS)         | Earthquakes (USGS) started
+2026-10-28 16:13:33,084 | INFO     | Weather (Open-Meteo)       | Weather (Open-Meteo) started
+2026-10-28 16:13:33,116 | INFO     | Air Quality (Open-Meteo)   | Air Quality (Open-Meteo) started
+2026-10-28 16:13:33,134 | INFO     | MainThread                 | Dashboard running at http://127.0.0.1:5000  (press CTRL+C to stop)
+2026-10-28 16:13:35,975 | WARNING  | Alert Processor            | ALERT [MEDIUM] Unhealthy Air - Delhi, Delhi: US AQI 171. Limit prolonged outdoor exertion.
+2026-10-28 16:13:36,150 | WARNING  | Alert Processor            | ALERT [MEDIUM] Unhealthy Air - Chennai, Tamil Nadu: US AQI 157. Limit prolonged outdoor exertion.
+2026-10-28 16:13:36,247 | WARNING  | Alert Processor            | ALERT [MEDIUM] Unhealthy Air - Lucknow, Uttar Pradesh: US AQI 153. Limit prolonged outdoor exertion.
+2026-10-28 16:13:36,391 | WARNING  | Alert Processor            | ALERT [MEDIUM] Unhealthy Air - Patna, Bihar: US AQI 158. Limit prolonged outdoor exertion.
+2026-10-28 16:13:36,679 | WARNING  | Alert Processor            | ALERT [MEDIUM] Heavy Rain Forecast - Visakhapatnam, Andhra Pradesh: 112 mm rain forecast today. Expect waterlogging in low areas.
+2026-10-28 16:13:36,817 | WARNING  | Alert Processor            | ALERT [MEDIUM] Unhealthy Air - Puducherry, Puducherry: US AQI 151. Limit prolonged outdoor exertion.
+2026-10-28 16:14:52,473 | INFO     | Alert Processor            | Alert Processor started
+2026-10-28 16:14:52,473 | INFO     | Earthquakes (USGS)         | Earthquakes (USGS) started
+2026-10-28 16:14:52,474 | INFO     | Weather (Open-Meteo)       | Weather (Open-Meteo) started
+2026-10-28 16:14:52,475 | INFO     | Air Quality (Open-Meteo)   | Air Quality (Open-Meteo) started
+2026-10-28 16:14:52,475 | INFO     | MainThread                 | Dashboard running at http://127.0.0.1:5000  (press CTRL+C to stop)
+2026-10-28 16:14:55,695 | WARNING  | Alert Processor            | ALERT [MEDIUM] Unhealthy Air - Delhi, Delhi: US AQI 171. Limit prolonged outdoor exertion.
+2026-10-28 16:14:55,854 | WARNING  | Alert Processor            | ALERT [MEDIUM] Unhealthy Air - Chennai, Tamil Nadu: US AQI 157. Limit prolonged outdoor exertion.
+2026-10-28 16:14:56,017 | WARNING  | Alert Processor            | ALERT [MEDIUM] Unhealthy Air - Lucknow, Uttar Pradesh: US AQI 153. Limit prolonged outdoor exertion.
+2026-10-28 16:14:56,049 | WARNING  | Alert Processor            | ALERT [MEDIUM] Unhealthy Air - Patna, Bihar: US AQI 158. Limit prolonged outdoor exertion.
+2026-10-28 16:14:56,693 | WARNING  | Alert Processor            | ALERT [MEDIUM] Heavy Rain Forecast - Visakhapatnam, Andhra Pradesh: 112 mm rain forecast today. Expect waterlogging in low areas.
+2026-10-28 16:14:56,849 | WARNING  | Alert Processor            | ALERT [MEDIUM] Unhealthy Air - Puducherry, Puducherry: US AQI 151. Limit prolonged outdoor exertion.
+2026-10-28 16:15:21,144 | WARNING  | Alert Processor            | ALERT [HIGH] Thunderstorm - Bhubaneswar, Odisha: Thunderstorm. Stay indoors; avoid open areas and tall trees.
+2026-10-28 16:15:25,067 | INFO     | Thread-13 (process_request_thread) | Quake alert threshold set to 4.0
+2026-10-28 16:15:50,852 | INFO     | MainThread                 | Shutdown complete
+2026-10-28 16:15:50,852 | INFO     | Weather (Open-Meteo)       | Weather (Open-Meteo) stopped
+2026-10-28 16:15:50,853 | INFO     | Earthquakes (USGS)         | Earthquakes (USGS) stopped
+2026-10-28 16:15:50,853 | INFO     | Air Quality (Open-Meteo)   | Air Quality (Open-Meteo) stopped

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Smart Disaster Management &amp; Early Warning System - India</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css">
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="brand">
+    <span class="logo">🛡️</span>
+    <div><h1>Smart Disaster Management</h1><p>Early Warning System &middot; India</p></div>
+  </div>
+  <div class="top-actions">
+    <span class="live"><i></i> LIVE</span>
+    <span id="clock" class="clock"></span>
+    <button id="themeBtn" class="icon-btn" title="Toggle dark / light">🌓</button>
+    <button id="sosBtn" class="sos-btn">🆘 EMERGENCY SOS</button>
+  </div>
+</header>
+
+<div id="banner" class="banner ok"><span class="banner-icon">⏳</span><span id="bannerText">Connecting to live data...</span></div>
+
+<main>
+  <section class="stats" id="stats"></section>
+  <section class="highlights" id="highlights"></section>
+
+  <section class="grid">
+    <div class="card map-card">
+      <div class="card-head">
+        <h2>🗺️ Live India Hazard Map</h2>
+        <div class="controls">
+          <label class="chip"><input type="checkbox" id="lyQuakes" checked> Earthquakes</label>
+          <label class="chip"><input type="checkbox" id="lyCities" checked> Cities</label>
+          <label class="chip"><input type="checkbox" id="lySos" checked> SOS</label>
+          <select id="modeSel" title="City colour mode">
+            <option value="risk">Colour: Risk level</option>
+            <option value="temp">Colour: Temperature</option>
+            <option value="aqi">Colour: Air quality</option>
+          </select>
+        </div>
+      </div>
+      <div id="map"></div>
+      <div class="legend" id="legend"></div>
+    </div>
+
+    <div class="card side-card">
+      <div class="tabs" id="tabs">
+        <button class="tab active" data-tab="alerts">🔔 Alerts</button>
+        <button class="tab" data-tab="quakes">🌍 Quakes</button>
+        <button class="tab" data-tab="cities">🏙️ Cities</button>
+        <button class="tab" data-tab="sos">🆘 SOS</button>
+      </div>
+      <div class="pane active" id="pane-alerts">
+        <div class="filter-row" id="alertFilters">
+          <button class="fchip active" data-sev="ALL">All</button>
+          <button class="fchip" data-sev="CRITICAL">Critical</button>
+          <button class="fchip" data-sev="HIGH">High</button>
+          <button class="fchip" data-sev="MEDIUM">Medium</button>
+        </div>
+        <div class="list" id="alertList"></div>
+      </div>
+      <div class="pane" id="pane-quakes"><div class="list" id="quakeList"></div></div>
+      <div class="pane" id="pane-cities">
+        <input id="cityFilter" class="search" type="search" placeholder="Search city or state...">
+        <div class="list" id="cityList"></div>
+      </div>
+      <div class="pane" id="pane-sos"><div class="list" id="sosList"></div></div>
+    </div>
+  </section>
+
+  <section class="grid3 insights">
+    <div class="card"><h2>🧮 National Risk Index</h2><div id="gauge" class="gauge"></div>
+      <p class="muted small">Live score from city conditions, recent earthquakes near India and open SOS requests (project formula, not an official index).</p></div>
+    <div class="card"><h2>📊 Earthquakes &mdash; last 7 days</h2><div id="weekChart" class="weekchart"></div>
+      <p class="muted small">Bar height = number of quakes, colour = strongest quake that day.</p></div>
+    <div class="card"><h2>🏆 City Rankings</h2>
+      <div class="seg" id="rankSeg"><button class="active" data-m="aqi">AQI</button><button data-m="temp">Temp</button><button data-m="wind">Wind</button><button data-m="rain">Rain</button></div>
+      <div id="rankList" class="ranklist"></div></div>
+  </section>
+
+  <section class="grid3">
+    <div class="card">
+      <h2>📍 Location & Town Search</h2>
+      <p class="muted">Search any small town in India or use your GPS to get exact live details.</p>
+      <!-- Ye raha apka naya search bar -->
+      <input type="text" id="townSearch" class="search" placeholder="Search city or town (e.g., Karjat)..." autocomplete="off">
+      <div id="searchResults" class="search-results"></div>
+      
+      <button id="locBtn" class="btn small" style="margin-top: 8px;">📍 Use GPS instead</button>
+      <div id="myLoc" class="myloc"></div>
+    </div>
+
+    <div class="card">
+      <h2>📞 Emergency Numbers (India)</h2>
+      <div class="numbers">
+        <a href="tel:112"><b>112</b><span>National Emergency</span></a>
+        <a href="tel:100"><b>100</b><span>Police</span></a>
+        <a href="tel:101"><b>101</b><span>Fire</span></a>
+        <a href="tel:102"><b>102</b><span>Ambulance</span></a>
+        <a href="tel:108"><b>108</b><span>Emergency Ambulance</span></a>
+        <a href="tel:1070"><b>1070</b><span>State Disaster Control</span></a>
+        <a href="tel:1077"><b>1077</b><span>District Disaster Control</span></a>
+        <a href="tel:1091"><b>1091</b><span>Women Helpline</span></a>
+        <a href="tel:1098"><b>1098</b><span>Childline</span></a>
+        <a href="tel:1033"><b>1033</b><span>Highway Helpline</span></a>
+      </div>
+      <p class="muted small">Some numbers can vary by state. In any life-threatening emergency dial <b>112</b>.</p>
+    </div>
+
+    <div class="card">
+      <h2>⚙️ System &amp; Controls</h2>
+      <div id="feedStatus" class="feeds"></div>
+      <div class="donut-row">
+        <div id="donut" class="donut"><span id="donutTotal">0</span></div>
+        <ul class="donut-legend" id="donutLegend"></ul>
+      </div>
+      <label class="slider-label">Earthquake alert threshold: <b id="thrVal">4.0</b></label>
+      <input type="range" id="thr" min="2.5" max="7" step="0.1" value="4.0">
+      <div class="btn-row">
+        <button id="thrBtn" class="btn small">Apply</button>
+        <button id="refreshBtn" class="btn small ghost">Refresh data now</button>
+        <a class="btn small ghost" href="/api/export/alerts.csv">Export alerts CSV</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="card guide">
+    <h2>🧭 Disaster Safety Guide</h2>
+    <div class="guide-tabs" id="guideTabs"></div>
+    <div id="guideBody" class="guide-body"></div>
+  </section>
+</main>
+
+<footer>
+  Educational mini-project &middot; Data: USGS Earthquake Hazards Program, Open-Meteo, OpenStreetMap / CARTO.
+  The SOS feature in this demo does <b>not</b> contact real responders &mdash; call <a href="tel:112">112</a> in a real emergency.
+</footer>
+
+<!-- SOS modal -->
+<div id="sosModal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="sosTitle">
+  <div class="modal-box">
+    <button class="modal-close" id="sosClose" aria-label="Close">✕</button>
+    <h2 id="sosTitle">🆘 Emergency SOS</h2>
+    <div class="demo-note">College-project demo: this does not alert real responders. In a real emergency call <a href="tel:112">112</a> now.</div>
+    <div class="call-row">
+      <a class="call-btn" href="tel:112">📞 Call 112</a>
+      <a class="call-btn alt" href="tel:108">🚑 108</a>
+      <a class="call-btn alt" href="tel:100">🚓 100</a>
+      <a class="call-btn alt" href="tel:101">🚒 101</a>
+    </div>
+    <form id="sosForm" novalidate>
+      <label>Emergency type
+        <select id="sosType">
+          {% for t in sos_types %}<option value="{{ t }}">{{ t }}</option>{% endfor %}
+        </select>
+      </label>
+      <div class="two">
+        <label>Your name <input id="sosName" maxlength="60" placeholder="Optional"></label>
+        <label>Mobile number <input id="sosPhone" maxlength="16" inputmode="tel" placeholder="10-digit mobile"></label>
+      </div>
+      <label>What is happening? <textarea id="sosMsg" rows="2" maxlength="300" placeholder="Short description (optional)"></textarea></label>
+      <div class="locrow">
+        <button type="button" id="sosLocBtn" class="btn small">📍 Detect my location</button>
+        <input id="sosLat" placeholder="Latitude" inputmode="decimal">
+        <input id="sosLon" placeholder="Longitude" inputmode="decimal">
+      </div>
+      <div id="sosErr" class="form-err"></div>
+      <div class="btn-row">
+        <button type="submit" id="sosSend" class="btn danger">Send SOS</button>
+        <button type="button" id="sosWa" class="btn ghost">Share on WhatsApp</button>
+      </div>
+    </form>
+    <div id="sosOk" class="sos-ok hidden"></div>
+  </div>
+</div>
+
+<div id="toasts" aria-live="polite"></div>
+
+<script>window.APP_CONFIG = { maptilerKey: {{ maptiler_key|tojson }} };</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+<script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>
